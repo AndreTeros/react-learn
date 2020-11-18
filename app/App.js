@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 
-import Task1 from "./Task1"
+import Task1 from "./Task1";
+import Task2 from "./Task2";
 
 export default class App extends Component {
     constructor(props) {
@@ -30,6 +31,8 @@ export default class App extends Component {
                 </div>
 
                 {showList && <Task1/>}
+
+                <Task2/>
             </Fragment>
         );
     }
